@@ -1,0 +1,32 @@
+@import "bootstrap";
+
+/* ---HOME--- */
+.banner-section {
+  background-color: #ffe3d4;
+  font-family: "Lobster", cursive;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 3rem;
+  padding: 9rem;
+  text-align: center;
+  width: 100%;
+}
+
+/* ---INDEX--- */
+.index-cards,
+.show-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cat-show-img {
+  width: 300px;
+}
+
+/* ---NAV LINKS--- */
+.nav-link {
+  color: #ff0080 !important;
+}
+.nav-link:hover {
+  color: #000 !important;
+}
